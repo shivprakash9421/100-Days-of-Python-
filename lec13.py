@@ -8,6 +8,9 @@ print(word.lower())
 a= "!!!!harry!!!!!!!"
 print(a.rstrip("!"))
 
+str3="   my sname is shiv  "
+print(str3.strip())    #removes any white spaces before and after the string.
+
 b="monkey"
 print(b.replace("monkey", "donkey"))
 
@@ -31,7 +34,7 @@ print(line.endswith("!!!!!"))
 print(line.endswith("of",4,15))
 
 d='''The boy whose name is shivprakash is going to comebak in 2024 and 
-he is following no fap '''
+he is following codwithharry '''
 
 print(d.find("shivprakash"))
 print(d.find("sumit"))
@@ -62,7 +65,15 @@ print(i.isspace())
 j="The Man With Vison Is Danger"
 print(j.istitle())
 
-k=""
+str2="the man with vison is danger"
+print(str2.title())
 
+k="python is interprited language"
+print(k.startswith("python"))
 
+l="BREAKING BAD is THE best webseries FOR REAL"
+print(l.swapcase())
+
+m="SHE SELLS SEASHELLS ON THE SEA SHORE." #tounge twister
+print(m.count("S"))
 
