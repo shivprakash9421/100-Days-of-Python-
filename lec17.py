@@ -1,3 +1,5 @@
+#FOR LOOPS IN PYTHON 
+
 name="Abhishek"
 for x in name:
     print(x)
@@ -15,6 +17,7 @@ for color in colors:
 
 for x in range(1,20001):
   print(x)
+  
 
 for x in range(1,300,5):
   print(x) 
