@@ -1,10 +1,10 @@
 a='''is python very imp for ai engineers ?'''
 
-b='''pyhton is very important because,
+b="""pyhton is very important because,
 it is used for data visualization,dtat analytics 
 it is used in ai and ml.
 it is used to create web apllications.
-it is used to handle data bases.'''
+it is used to handle data bases."""
 
 print (a)
 print(b)
