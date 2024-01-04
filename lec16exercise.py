@@ -6,7 +6,7 @@ match x:
         print("x is zero")
     # case with if-condition
     case _ if x % 2 == 0:
-        print("x % 2 == 0 and case is 4")
+        print("x % 2 == 0 and case is",x,)
     # Empty case with if-condition
     case _ if x < 10:
         print("x is < 10")
